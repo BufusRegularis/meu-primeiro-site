@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8"/>
-<title>BufosRegularis</title>
-<style>
+    <meta charset="UTF-8"/>
+    <title>Meu Site</title>
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -15,9 +15,23 @@
             text-align: center;
             padding: 1em;
         }
+        nav {
+            background-color: #555;
+            padding: 0.5em;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
         section {
-            padding: 20px;
-            text-align: center;
+            padding: 2em;
         }
         footer {
             background-color: #333;
@@ -25,17 +39,24 @@
             text-align: center;
             padding: 1em;
         }
+    </style>
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
     <section>
-        <h2>Bem-vindo Site Do Bufos Regularis!</h2>
+        <h2>Bem-vindo ao Meu Site!</h2>
         <p>Este é um site de exemplo.</p>
     </section>
     <footer>
-        <p>&copy; Todos os diretos reservados para o BufosRegularis</p>
+        <p>&copy; 2023 Meu Site</p>
     </footer>
 </body>
 </html>
